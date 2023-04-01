@@ -27,15 +27,20 @@ body {
 
 .cabecalho__menu {
     display: flex;
-    gap: 80px;
+    gap: 35px;
+    justify-content: baseline;
 }
 
 .cabecalho__menu__link {
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
+}
+
+.tamanho__imagem {
+    width:1.8rem;
 }
 
 .apresentacao {
